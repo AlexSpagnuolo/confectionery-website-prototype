@@ -191,3 +191,23 @@ h1 {
 .right h2 {
   text-align: center;
 }
+
+.contact {
+  float: left;
+  width: 40%;
+  margin-right: 1rem;
+}
+
+.review {
+  background-color: #e2e2e2;
+  overflow: hidden;
+}
+
+.review h2 {
+  margin: .5rem;
+  padding-top: .5rem;
+}
+
+.review p {
+  margin: .5rem;
+}
