@@ -158,6 +158,7 @@ h1 {
 .info {
   display: block;
   text-align: center;
+  overflow: hidden;
 }
 
 .info-img {
