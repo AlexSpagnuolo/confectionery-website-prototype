@@ -260,4 +260,47 @@ footer {
     line-height: 1.5;
   }
 
+  .contact {
+    width: 15%;
+  }
+
+  h1 {
+    display: inline-block;
+    float: left;
+  }
+
+  .logo {
+    width: 40px;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+
+  .nav-open {
+    display: none;
+  }
+
+  .nav li {
+    width: 25%;
+    display: inline-block;
+  }
+
+  .nav a {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .nav {
+    display: inline-block;
+    position: static;
+    text-align: center;
+    width: 91.9%;
+    background-color: inherit;
+  }
+
+  header {
+    text-align: left;
+    overflow: hidden;
+  }
+
 }
