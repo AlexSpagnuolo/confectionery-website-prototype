@@ -155,6 +155,11 @@ h1 {
   color: white;
 }
 
+.info {
+  display: block;
+  text-align: center;
+}
+
 .info-img {
   width: 100%;
   display: block;
@@ -171,15 +176,14 @@ h1 {
 .left {
   float: left;
   padding-left: 1.5em;
-  text-align: center;
-  max-width: 250px;
+  width: 50%;
+
 }
 
 .right {
   float: right;
   padding-right: 1.5em;
-  text-align: right;
-  max-width: 250px;
+  width: 50%;
 
 }
 
