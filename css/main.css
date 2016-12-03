@@ -46,6 +46,7 @@ h1 {
   left: 0;
   top: 100%;
   width: 100%;
+  z-index: 2;
 }
 
 .nav li {
@@ -104,4 +105,23 @@ h1 {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.banner {
+  margin: 0;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.banner-img {
+  width: 100%;
+  display: block;
+}
+
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
