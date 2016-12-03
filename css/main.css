@@ -128,7 +128,7 @@ h1 {
   color: white;
   font-family: "Emilys Candy", cursive;
   white-space: nowrap;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
 }
 
 .products {
@@ -159,7 +159,7 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   font-family: "Emilys Candy", cursive;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
 }
 
 .info {
@@ -274,7 +274,7 @@ footer {
     display: inline-block;
     margin-left: 1rem;
     margin-right: 1rem;
- }
+  }
 
   .nav-open {
     display: none;
