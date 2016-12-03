@@ -111,6 +111,8 @@ h1 {
   margin: 0;
   position: relative;
   margin-bottom: 1rem;
+  max-height: 75vh;
+  overflow: hidden;
 }
 
 .banner-img {
@@ -126,6 +128,7 @@ h1 {
   color: white;
   font-family: "Emilys Candy", cursive;
   white-space: nowrap;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
 }
 
 .products {
@@ -156,6 +159,7 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   font-family: "Emilys Candy", cursive;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
 }
 
 .info {
@@ -245,6 +249,15 @@ footer {
 
   .contact {
     width: 20%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
   }
 
 }
