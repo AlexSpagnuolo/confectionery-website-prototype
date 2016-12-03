@@ -128,6 +128,7 @@ h1 {
 
 .products {
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .product {
@@ -152,4 +153,36 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.info-img {
+  width: 100%;
+  display: block;
+}
+
+.info p {
+  margin: .5rem;
+}
+
+.info h2 {
+  margin: .5rem;
+}
+
+.left {
+  float: left;
+  padding-left: 1.5em;
+  text-align: center;
+  max-width: 250px;
+}
+
+.right {
+  float: right;
+  padding-right: 1.5em;
+  text-align: right;
+  max-width: 250px;
+
+}
+
+.right h2 {
+  text-align: center;
 }
