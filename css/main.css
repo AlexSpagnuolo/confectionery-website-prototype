@@ -125,6 +125,7 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   font-family: "Emilys Candy", cursive;
+  white-space: nowrap;
 }
 
 .products {
