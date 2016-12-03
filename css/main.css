@@ -22,8 +22,9 @@ body {
 
 header {
   background-color: #e2e2e2;
-  padding: 1em 0 0;
+  padding-top: 0.5em;
   text-align: center;
+  position: relative;
 }
 
 h1 {
@@ -41,6 +42,10 @@ h1 {
   background-color: #ccc;
   overflow: hidden;
   display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
 }
 
 .nav li {
@@ -60,6 +65,43 @@ h1 {
   color: #fff;
 }
 
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
 .nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #ccc;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+  padding-bottom: .5em;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
   display: block;
 }
