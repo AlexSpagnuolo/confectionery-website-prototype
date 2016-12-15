@@ -204,6 +204,7 @@ h1 {
   float: left;
   width: 40%;
   margin: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .review {
@@ -304,12 +305,19 @@ footer {
     overflow: hidden;
   }
 
+  .review p {
+    max-width: 1000px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  .review {
+    padding-left: 6rem;
   }
 
 }
